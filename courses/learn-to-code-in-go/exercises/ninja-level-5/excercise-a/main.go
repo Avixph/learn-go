@@ -13,5 +13,12 @@ func main() {
 		lastName:         "Moneypenny",
 		favoriteIceCream: []string{"hazelnut", "pistacio"},
 	}
-	fmt.Printf("%v\n %v", jb, mm)
+	fmt.Printf("%v %v's favorite ice cream flavors are:\n", jb.firstName, jb.lastName)
+	for i, favIceCream := range jb.favoriteIceCream {
+		fmt.Printf("%v %v \n", i+1, favIceCream)
+	}
+	fmt.Printf("%v %v's favorite ice cream flavors are:\n", mm.firstName, mm.lastName)
+	for i, favIceCream := range mm.favoriteIceCream {
+		fmt.Printf("%v %v \n", i+1, favIceCream)
+	}
 }
