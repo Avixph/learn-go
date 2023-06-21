@@ -12,15 +12,15 @@ func TestCenteredAvg(t *testing.T) {
 	}
 
 	tests := []test{
-		test{
+		{
 			data:   []int{10, 20, 40, 60, 80},
 			answer: 40,
 		},
-		test{
+		{
 			data:   []int{2, 4, 6, 8, 10, 12},
 			answer: 7,
 		},
-		test{
+		{
 			data:   []int{1, 2, 3, 4, 5, 6, 7, 8, 9},
 			answer: 5,
 		},
