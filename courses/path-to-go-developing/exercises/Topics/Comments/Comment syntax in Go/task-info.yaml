@@ -1,0 +1,19 @@
+type: choice
+is_multiple_choice: true
+options:
+  - text: Compiler directives are written as comments that usually don't have a space
+      between the <code>//</code> and the text after it.
+  - text: Line comments start with <code>//</code> and end with <code>*/</code>
+  - text: Block comments start with <code>/*</code> and end with <code>*/</code>
+  - text: We can only use one type of comments in every project
+files:
+  - name: main.go
+    visible: true
+    text: |+
+      // You can experiment here, it won’t be checked
+    
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/16690#comment
+status: Solved
+record: -1
+local_check: false
