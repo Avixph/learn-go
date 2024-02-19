@@ -13,8 +13,8 @@
 
 # Dependency directories (remove the comment below to include it)
 # vendor/
-courses/.idea/
-courses/.idea/path-to-go-developing/exercises/.idea/
+/courses/.idea/
+/courses/.idea/path-to-go-developing/exercises/.idea/
 .DS_Store
 .AppleDouble
 .LSOverride
