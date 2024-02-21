@@ -1,0 +1,14 @@
+type: code
+files:
+  - name: main.go
+    visible: true
+    text: "package main\n\nimport \"fmt\"\n\nfunc main() {\n    var age int\n    fmt.Scanf(\"\
+    %d\", &age)\n\n\t// Code your switch or if...else-if statement here.\n}"
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/16238#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Wed, 21 Feb 2024 19:44:39 UTC"
+record: -1
+submission_language: go
