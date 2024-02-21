@@ -1,0 +1,17 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: When the value of the evaluated condition is <code>true</code>.
+  - text: When the value of the evaluated condition is <code>false</code>.
+  - text: It does so right after the code within the <code>if</code> statement is executed.
+files:
+  - name: main.go
+    visible: true
+    text: |+
+      // You can experiment here, it won’t be checked
+    
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/16236#comment
+status: Solved
+record: -1
+local_check: false

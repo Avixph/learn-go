@@ -1,0 +1,16 @@
+type: code
+custom_name: Grading tests!
+files:
+  - name: main.go
+    visible: true
+    text: "package main\n\nimport \"fmt\"\n\n// nolint:gomnd // DO NOT delete this comment!\n\
+    func main() {\n    var score int\n    fmt.Scanf(\"%d\", &score)\n\n\t// Write\
+    \ the code required to validate the student's score here.\n}"
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/16241#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Wed, 21 Feb 2024 19:19:05 UTC"
+record: -1
+submission_language: go
