@@ -1,0 +1,18 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: <code>fmt.Print(a)</code>
+  - text: <code>fmt.Print(&amp;a)</code>
+  - text: <code>fmt.Scan(a)</code>
+  - text: <code>fmt.Scan(&amp;a)</code>
+files:
+  - name: main.go
+    visible: true
+    text: |+
+      // You can experiment here, it won’t be checked
+    
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/14530#comment
+status: Solved
+record: -1
+local_check: false

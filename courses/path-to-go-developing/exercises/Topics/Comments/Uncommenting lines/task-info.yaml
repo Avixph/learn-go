@@ -8,6 +8,9 @@ files:
     \ be a cool Golang hacker\")\n}"
     learner_created: false
 feedback_link: https://hyperskill.org/learn/step/16694#comment
-status: Unchecked
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Mon, 19 Feb 2024 21:52:29 UTC"
 record: -1
 submission_language: go
