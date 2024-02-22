@@ -9,6 +9,9 @@ files:
     \ element on a new line here or below this comment:\n}"
     learner_created: false
 feedback_link: https://hyperskill.org/learn/step/15939#comment
-status: Unchecked
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Thu, 22 Feb 2024 20:13:03 UTC"
 record: -1
 submission_language: go
