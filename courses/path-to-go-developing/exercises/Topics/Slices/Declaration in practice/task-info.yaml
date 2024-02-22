@@ -1,0 +1,19 @@
+type: code
+files:
+  - name: main.go
+    visible: true
+    highlight_level: NONE
+    text: "package main\n\nimport (\n\t\"fmt\"\n    \"reflect\"\n)\n\nfunc main() {\n\
+    \    // Declare a new variable named `mySlice` as a slice of any type you like\
+    \ below:\n    ?\n\n     // DO NOT delete/modify the code below! It checks if you\
+    \ correctly declared `mySlice`:\n    _ = fmt.Print; _ = reflect.Struct; checkSolution(mySlice)\n\
+    }"
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/15660#comment
+status: Solved
+feedback:
+  message: <html>Passed. The `mySlice` variable has been correctly declared as a slice!
+    🏆</html>
+  time: "Thu, 22 Feb 2024 17:57:35 UTC"
+record: -1
+submission_language: go

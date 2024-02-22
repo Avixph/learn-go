@@ -3,11 +3,11 @@ package main
 import "fmt"
 
 func main() {
-    // DO NOT delete or modify the code block below:
-    var length, capacity int
+	// DO NOT delete or modify the code block below:
+	var length, capacity int
 	fmt.Scanln(&length, &capacity)
 	numbers := make([]int, length, capacity)
 
-    // Write the code below to print the `numbers` slice len(), cap(), and its elements:
-	fmt.Printf("len=%d cap=%d elements=%v", ?, ?, ?)
+	// Write the code below to print the `numbers` slice len(), cap(), and its elements:
+	fmt.Printf("len=%d cap=%d elements=%v", len(numbers), cap(numbers), numbers)
 }
