@@ -1,0 +1,14 @@
+type: code
+files:
+  - name: main.go
+    visible: true
+    text: "package main\n\nimport \"fmt\"\n\nfunc main() {\n\tvar num int\n\tfmt.Scanln(&num)\n\
+    \n\tfmt.Printf(\"%?\\n\", ?)\n\tfmt.Printf(\"%?\\n\", ?)\n}"
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/23496#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Fri, 23 Feb 2024 16:25:00 UTC"
+record: -1
+submission_language: go
