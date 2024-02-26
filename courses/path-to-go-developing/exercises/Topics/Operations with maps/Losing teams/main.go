@@ -3,22 +3,22 @@ package main
 import "fmt"
 
 func main() {
-    groupH := map[string]int{
-        "Chelsea": 12,
-        "Juventus": 12,
-        "Zenit": 5,
-        "Malmo": 1,
-    }
+	groupH := map[string]int{
+		"Chelsea":  12,
+		"Juventus": 12,
+		"Zenit":    5,
+		"Malmo":    1,
+	}
 
-    // delete the losing teams from the 'groupH' map here
-    delete(?, ?)
-    delete(?, ?)
+	// delete the losing teams from the 'groupH' map here
+	delete(groupH, "zenit")
+	delete(groupH, "malmo")
 
-    // do not change the text in the Println statement below!
-    fmt.Println("The two teams that will pass to the knockout stage are:") 
+	// do not change the text in the Println statement below!
+	fmt.Println("The two teams that will pass to the knockout stage are:")
 
-    // implement the for...range loop here to print the name of the qualified teams
-    for ? := range ? {
-        fmt.Println(?)
-    }
+	// implement the for...range loop here to print the name of the qualified teams
+	for name := range groupH {
+		fmt.Println(name)
+	}
 }

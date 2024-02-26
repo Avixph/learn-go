@@ -12,6 +12,12 @@ files:
     \    }\n}"
     learner_created: false
 feedback_link: https://hyperskill.org/learn/step/17209#comment
-status: Unchecked
+status: Solved
+feedback:
+  message: |-
+    <html>Well done! 🏆⚽️ Chelsea and Juventus pass to the knockout stage!
+
+    Passed. Correct</html>
+  time: "Mon, 26 Feb 2024 20:38:56 UTC"
 record: -1
 submission_language: go
