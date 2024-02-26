@@ -13,7 +13,7 @@ fmt.Println(strings.ToUpper(quote))
 fmt.Println(strings.Trim(secret, "ADENSTU%"))
 
 // Output:
-// 1337</code></pre><div class="alert alert-warning"><p>Pay attention that the second argument of the <code class="language-go">Trim</code> function is a cutset, and the function will remove any character present in this cutset from the string.</p></div><p>If you need to get rid of symbols that are only in the beginning or at the end of the target string, there are two more specialized functions for it:</p><pre><code class="language-go">func TrimLeft(s, cutset string) string
+// 1337</code></pre><div class="alert alert-warning"><p>Pay attention that the second argument of the <code class="language-go">Trim</code> function is a cutset, and the function will remove any character present in this cutset from both sides of the string.</p></div><p>If you need to get rid of symbols that are only in the beginning or at the end of the target string, there are two more specialized functions for it:</p><pre><code class="language-go">func TrimLeft(s, cutset string) string
 func TrimRight(s, cutset string) string</code></pre><p>As you may suggest from the names of these functions, they remove symbols from one side of a given string. </p><p>One more helper from the family of trim functions is <code class="language-go">strings.TrimSpace</code>. It removes space characters, such as <code class="language-go">\n\r\t</code> from both ends of the strings:</p><pre><code class="language-go">outerSpace := "    \tOuter Space...  \r\n"
 fmt.Println(strings.TrimSpace(outerSpace))
 
