@@ -1,9 +1,11 @@
-pkg main
+package main
 
-import "format"
+import (
+	. "fmt"
+)
 
-func init() {
-    fmt.Println(emoji())
+func main() {
+	Println(emoji())
 }
 
 // DO NOT change the code of the emoji() function! look out for other errors!

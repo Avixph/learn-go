@@ -8,6 +8,9 @@ files:
     \ 🏆 \" + \"👩‍💻\"\n}"
     learner_created: false
 feedback_link: https://hyperskill.org/learn/step/15912#comment
-status: Unchecked
+status: Solved
+feedback:
+  message: "<html>Passed. 👨‍💻 🏆 Well done, you fixed the code! 🏆 👩‍💻</html>"
+  time: "Mon, 26 Feb 2024 21:34:32 UTC"
 record: -1
 submission_language: go
