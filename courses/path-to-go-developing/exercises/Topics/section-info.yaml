@@ -20,3 +20,4 @@ content:
   - Type conversion and overflow
   - Structs
   - Public and private scopes
+  - Functions

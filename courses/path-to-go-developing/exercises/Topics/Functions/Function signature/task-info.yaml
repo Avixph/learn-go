@@ -1,0 +1,20 @@
+type: sorting
+options:
+  - The keyword <code>func</code> followed by the function name
+  - A set of parentheses <code>()</code> that hold zero or more parameters
+  - "The return type, that can be of a single type, of various types or be empty as\
+  \ well"
+files:
+  - name: main.go
+    visible: true
+    text: |+
+      // You can experiment here, it won’t be checked
+    
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/23442#comment
+status: Solved
+record: -1
+ordering:
+  - 0
+  - 1
+  - 2
