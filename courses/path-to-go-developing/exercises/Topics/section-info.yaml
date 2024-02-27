@@ -17,3 +17,4 @@ content:
   - Operations with maps
   - Packages
   - Errors
+  - Type conversion and overflow

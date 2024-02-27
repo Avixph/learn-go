@@ -1,0 +1,14 @@
+type: code
+files:
+  - name: main.go
+    visible: true
+    text: "package main\n\nimport \"fmt\"\n\nfunc main() {\n\tvar source float64\n \
+    \   fmt.Scan(&source)\n}"
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/18714#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Tue, 27 Feb 2024 16:55:12 UTC"
+record: -1
+submission_language: go

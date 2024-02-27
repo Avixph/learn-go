@@ -1,0 +1,25 @@
+type: code
+files:
+  - name: main.go
+    visible: true
+    text: |-
+      package main
+      
+      import "fmt"
+      
+      func main() {
+          var number int
+          fmt.Scan(&number)
+      
+          result := ?
+      
+          fmt.Println(result)
+      }
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/24780#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Tue, 27 Feb 2024 00:56:59 UTC"
+record: -1
+submission_language: go

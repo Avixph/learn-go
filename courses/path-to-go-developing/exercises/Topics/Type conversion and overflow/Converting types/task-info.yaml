@@ -1,0 +1,19 @@
+type: choice
+is_multiple_choice: true
+options:
+  - text: uint16("403")
+  - text: float32(404)
+  - text: float(505)
+  - text: int(501)
+  - text: bool("yes")
+files:
+  - name: main.go
+    visible: true
+    text: |+
+      // You can experiment here, it won’t be checked
+    
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/18711#comment
+status: Solved
+record: -1
+local_check: false
