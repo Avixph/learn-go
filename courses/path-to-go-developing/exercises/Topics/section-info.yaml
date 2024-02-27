@@ -18,3 +18,5 @@ content:
   - Packages
   - Errors
   - Type conversion and overflow
+  - Structs
+  - Public and private scopes

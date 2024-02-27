@@ -1,0 +1,19 @@
+type: code
+files:
+  - name: main.go
+    visible: true
+    highlight_level: NONE
+    text: "package main\n\nimport \"fmt\"\n\nfunc main() {\n\t? // create the local\
+    \ variable 'fairlyLocal' of the string type here!\n\n\tfmt.Println(solve(fairlyLocal))\
+    \ // DO NOT delete or modify this line!\n}"
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/17516#comment
+status: Solved
+feedback:
+  message: |-
+    <html>Passed. Well done! 🏆
+
+    I'm fairly local... I've been around! I've seen the functions, you're coding now!</html>
+  time: "Tue, 27 Feb 2024 21:12:47 UTC"
+record: -1
+submission_language: go

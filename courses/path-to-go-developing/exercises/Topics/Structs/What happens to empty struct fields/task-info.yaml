@@ -1,0 +1,20 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: The Go compiler assigns a random value to the empty field.
+  - text: We get a compiler error and the Go program doesn't execute.
+  - text: "The Go compiler assigns the default value to the empty field, according to\
+    \ the data type."
+  - text: The Go compiler assigns a <code>nil</code> type value to the empty field.
+files:
+  - name: main.go
+    visible: true
+    text: |+
+      // You can experiment here, it won’t be checked
+    
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/17496#comment
+status: Solved
+record: -1
+custom_name: What happens to empty struct fields?
+local_check: false

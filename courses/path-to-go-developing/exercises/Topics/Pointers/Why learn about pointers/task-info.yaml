@@ -1,0 +1,20 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: 'Move data from one place in memory to another '
+  - text: Create a copy of a variable
+  - text: Train large dogs that have long pointy ears and short hair
+  - text: Get the memory address of a variable to use or modify the value stored at
+      that address
+files:
+  - name: main.go
+    visible: true
+    text: |+
+      // You can experiment here, it won’t be checked
+    
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/24893#comment
+status: Solved
+record: -1
+custom_name: Why learn about pointers?
+local_check: false

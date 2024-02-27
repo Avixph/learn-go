@@ -41,6 +41,7 @@
     <setting file="file://$PROJECT_DIR$/Topics/Input Output/Standard output/main.go" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Topics/Input Output/Theory/main.go" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Topics/Loops/Finding the factorial/main.go" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/Loops/Printing numbers in a range/main.go" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Topics/Loops/Printing odd numbers in a range/main.go" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Topics/Loops/Reversing the number/main.go" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Topics/Maps/Adding Krusty Dogs to the menu/main.go" root0="FORCE_HIGHLIGHTING" />
@@ -52,6 +53,7 @@
     <setting file="file://$PROJECT_DIR$/Topics/Operations with strings/Final Battle/main.go" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Topics/Operations with strings/Greedy editor/main.go" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Topics/Packages/Fix the broken code/main.go" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/Pointers/Scanning/main.go" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Topics/Pointers/Value assignment/main.go" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Topics/Primitive types/Correct type/main.go" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Topics/Slice expressions/Splitting compound words/main.go" root0="FORCE_HIGHLIGHTING" />
@@ -62,6 +64,8 @@
     <setting file="file://$PROJECT_DIR$/Topics/String formatting/The hexadecimal value of an int number/main.go" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Topics/String search/Floating point number/main.go" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Topics/Strings/Rune count in a string/main.go" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/Structs/Assigning values to struct fields/main.go" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/Structs/Printing individual struct fields/main.go" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Topics/Type conversion and overflow/Overflow with math operations/main.go" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Topics/Type conversion and overflow/Secret code/main.go" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Topics/Type conversion and overflow/Simple conversion/main.go" root0="FORCE_HIGHLIGHTING" />

@@ -1,0 +1,8 @@
+content:
+  - Theory
+  - Assigning values to struct fields
+  - What happens to empty struct fields
+  - Creating a non-comparable struct
+  - What does the new function do
+  - What is a struct
+  - Printing individual struct fields

@@ -1,0 +1,32 @@
+type: table
+custom_name: Public or private?
+files:
+  - name: main.go
+    visible: true
+    text: |+
+      // You can experiment here, it won’t be checked
+    
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/17519#comment
+status: Solved
+record: -1
+rows:
+  - "<code>type Employee struct{}</code>"
+  - "<code>type address struct{}</code>"
+  - <code>func calculateArea()</code>
+  - <code>var Hello string</code>
+  - <code>func CalculatePerimeter()</code>
+columns:
+  - Public
+  - Private
+selected:
+  - - false
+    - false
+  - - false
+    - false
+  - - false
+    - false
+  - - false
+    - false
+  - - false
+    - false
