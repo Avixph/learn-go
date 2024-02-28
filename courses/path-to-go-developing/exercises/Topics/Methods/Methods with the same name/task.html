@@ -1,0 +1,38 @@
+<h2>Methods with the same name</h2>
+<div class="step-text">
+<p></p>
+<p>Below you will see a Go program that contains multiple methods and non-struct type declarations:</p>
+<pre><code class="language-go">package main
+
+import "math"
+
+type RectangleSide float64
+type PentagonSide float64
+type CubeSide float64
+
+func (r RectangleSide) Perimeter() float64 {
+    return float64(r) * 4
+}
+
+func (c CubeSide) Volume() float64 {
+    return math.Pow(float64(c), 3)
+}
+
+func (c CubeSide) SurfaceArea() float64 {
+    return math.Pow(float64(c), 2) * 6
+}
+
+func (r RectangleSide) Area() float64 {
+    return math.Pow(float64(r), 2)
+}
+
+func (p PentagonSide) Perimeter() float64 {
+    return float64(p) * 5
+}
+
+func (p PentagonSide) Area() float64 {
+    return math.Pow(float64(p), 2) * math.Sqrt(25 + 10 * math.Sqrt(5)) / 4
+}
+</code></pre>
+<p>Please select what methods have been implemented for each of the defined geometric types.</p>
+</div>

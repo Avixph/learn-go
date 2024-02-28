@@ -32,6 +32,7 @@
     <setting file="file://$PROJECT_DIR$/Topics/Errors/Square root of a negative number/main.go" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Topics/Errors/Wrapping errors/main.go" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Topics/Functional decomposition/Decomposing a function/main.go" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/Functional decomposition/Decomposition of mathematical functions/main.go" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Topics/Functional decomposition/Simple interest calculator/main.go" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Topics/Functions/Blue pill or Red pill/main.go" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Topics/Functions/Capitals and countries/main.go" root0="FORCE_HIGHLIGHTING" />
@@ -52,6 +53,9 @@
     <setting file="file://$PROJECT_DIR$/Topics/Loops/Reversing the number/main.go" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Topics/Maps/Adding Krusty Dogs to the menu/main.go" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Topics/Maps/Checking if a key exists in a map/main.go" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/Methods/Bank account operations/main.go" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/Methods/Creating a slot machine in Go/main.go" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/Methods/Working with pointer receivers/main.go" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Topics/Operations with maps/Best football players of 2021/main.go" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Topics/Operations with maps/Jerry's best friends ever/main.go" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Topics/Operations with maps/Losing teams/main.go" root0="FORCE_HIGHLIGHTING" />
@@ -94,6 +98,7 @@
     "Go Build.go build main.go (2).executor": "Run",
     "Go Build.go build main.go (3).executor": "Run",
     "Go Build.go build main.go (4).executor": "Run",
+    "Go Build.go build main.go (5).executor": "Run",
     "Go Build.go build main.go.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.go.formatter.settings.were.checked": "true",
@@ -112,7 +117,7 @@
     "settings.editor.selected.configurable": "Educational"
   }
 }]]></component>
-  <component name="RunManager" selected="Go Build.go build main.go (4)">
+  <component name="RunManager" selected="Go Build.go build main.go (5)">
     <configuration name="go build main.go (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="exercises" />
       <working_directory value="$PROJECT_DIR$/../../.." />
@@ -145,21 +150,21 @@
       <filePath value="$PROJECT_DIR$/Topics/Slice expressions/Subslices and chemical elements/main.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build main.go (5)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="exercises" />
       <working_directory value="$PROJECT_DIR$/../../.." />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/Topics/Loops/Finding the factorial/main.go" />
+      <filePath value="$PROJECT_DIR$/Topics/Methods/Creating a slot machine in Go/main.go" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build main.go (5)" />
         <item itemvalue="Go Build.go build main.go (4)" />
         <item itemvalue="Go Build.go build main.go (3)" />
         <item itemvalue="Go Build.go build main.go (2)" />
         <item itemvalue="Go Build.go build main.go (1)" />
-        <item itemvalue="Go Build.go build main.go" />
       </list>
     </recent_temporary>
   </component>
