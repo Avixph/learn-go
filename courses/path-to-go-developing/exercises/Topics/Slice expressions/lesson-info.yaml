@@ -5,3 +5,5 @@ content:
   - The subslice of a subslice
   - Simple vs Full
   - Subslices and chemical elements
+  - Getting a substring
+  - Removing all letters except for the last one

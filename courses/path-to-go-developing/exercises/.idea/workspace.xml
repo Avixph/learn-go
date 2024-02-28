@@ -66,6 +66,7 @@
     <setting file="file://$PROJECT_DIR$/Topics/Pointers/Scanning/main.go" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Topics/Pointers/Value assignment/main.go" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Topics/Primitive types/Correct type/main.go" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/Slice expressions/Removing all letters except for the last one/main.go" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Topics/Slice expressions/Splitting compound words/main.go" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Topics/Slice expressions/Subslices and chemical elements/main.go" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Topics/Slices/Declaration and Initialization in practice/main.go" root0="FORCE_HIGHLIGHTING" />
