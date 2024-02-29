@@ -1,0 +1,14 @@
+type: code
+files:
+  - name: main.go
+    visible: true
+    text: "package main\n\nimport (\n\t\"fmt\"\n\t\"math/rand\"\n)\n\nfunc main() {\n\
+    \    upperCase := \"ABCDEFGHIJKLMOPQRSTUVWXYZ\"\n    lowerCase := \"abcdefghijklmnopqrstuvwxyz\"\
+    \n    number := \"0123456789\"\n    specialSymbol := \"!?$&%#\"\n\n    var seed\
+    \ int64\n    fmt.Scanln(&seed)\n    rand.Seed(seed)\n\n    // put your code here\n\
+    \n}"
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/28505#comment
+status: Unchecked
+record: -1
+submission_language: go
