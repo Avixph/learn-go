@@ -1,0 +1,23 @@
+type: code
+files:
+  - name: main.go
+    visible: true
+    text: "package main\n\nimport (\n\t\"fmt\"\n\t\"time\"\n)\n\nconst (\n\tHoursPerDay\
+    \ = 24\n\tDaysPerYear = 365\n\tCentury     = 100\n)\n\nfunc main() {\n\tvar year,\
+    \ month, day int\n\tfmt.Scan(&year, &month, &day)\n\n    // Create the `date`\
+    \ using the input `year`, `month`, and `day`:\n\tdate := time.Date(?, ?, ?, 0,\
+    \ 0, 0, 0, time.UTC)\n\n\tyearDuration := time.Hour * HoursPerDay * DaysPerYear\n\
+    \tcenturyDuration := yearDuration * Century\n\n\tnow := time.Now()\n\n    // Write\
+    \ the missing code below to compare the `date` and `now` variables:\n\tswitch\
+    \ {\n\tcase ?.After(?):\n\t\tfmt.Println(\"This date will be in the future\")\n\
+    \tcase now.?(?) < centuryDuration:\n\t\tfmt.Println(\"This date was in the past\
+    \ hundred years\")\n\tdefault:\n\t\tfmt.Println(\"It was a long time ago...\"\
+    )\n\t}\n}"
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/19302#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Thu, 29 Feb 2024 21:54:17 UTC"
+record: -1
+submission_language: go
