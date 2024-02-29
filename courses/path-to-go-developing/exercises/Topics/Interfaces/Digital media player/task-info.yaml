@@ -1,0 +1,29 @@
+type: code
+files:
+  - name: main.go
+    visible: true
+    text: "package main\n\nimport (\n\t\"fmt\"\n\t\"strings\"\n)\n\ntype VideoPlayer\
+    \ struct {\n    File string\n}\n\ntype AudioPlayer struct {\n    File string\n\
+    }\n\nfunc (v VideoPlayer) Play() {\n    fmt.Println(\"Playing video\", v.File)\n\
+    }\n\nfunc (v VideoPlayer) Stop() {\n    fmt.Println(\"Stop playing video\", v.File)\n\
+    }\n\nfunc (a AudioPlayer) Play() {\n    fmt.Println(\"Playing audio\", a.File)\n\
+    }\n\nfunc (a AudioPlayer) Stop() {\n    fmt.Println(\"Stop playing audio\", a.File)\n\
+    }\n\n// Create the `DigitalPlayer` interface that implements the `Play()` and\
+    \ `Stop()` methods.\ntype ? interface {\n\t?\n\t?\n}\n\n// nolint: gosimple //\
+    \ DO NOT remove this comment!\nfunc main() {\n\t// DO NOT delete this code block;\
+    \ it takes as an input the name of the file to play or stop.\n\tvar fileName string\n\
+    \tfmt.Scanln(&fileName)\n\n    // Create the `player` variable of the `DigitalPlayer`\
+    \ type below:\n    var player ?\n\n    switch {\n    case strings.HasSuffix(fileName,\
+    \ \".mp3\"):\n        // Make the `player` an `AudioPlayer` below:\n        player\
+    \ = ?{File: fileName}\n\n    case strings.HasSuffix(fileName, \".mp4\"):\n   \
+    \     // Make the `player` a `VideoPlayer` below:\n        player = ?\n\n    default:\n\
+    \        fmt.Println(\"Unsupported file format\")\n        return\n\t}\n\n\t//\
+    \ Call the `Play()` and `Stop()` methods on the `player` below:\n\t?\n    ?\n}"
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/24775#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Wed, 28 Feb 2024 21:28:58 UTC"
+record: -1
+submission_language: go
