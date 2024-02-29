@@ -57,6 +57,9 @@
     <setting file="file://$PROJECT_DIR$/Topics/Loops/Reversing the number/main.go" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Topics/Maps/Adding Krusty Dogs to the menu/main.go" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Topics/Maps/Checking if a key exists in a map/main.go" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/Math package/Calculating the n root/main.go" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/Math package/Calculating the volume of a Cylinder/main.go" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/Math package/Rounding scores/main.go" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Topics/Methods/Bank account operations/main.go" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Topics/Methods/Creating a slot machine in Go/main.go" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Topics/Methods/Working with pointer receivers/main.go" root0="FORCE_HIGHLIGHTING" />
@@ -122,15 +125,7 @@
     "settings.editor.selected.configurable": "Educational"
   }
 }]]></component>
-  <component name="RunManager" selected="Go Build.go build main.go (5)">
-    <configuration name="go build main.go (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="exercises" />
-      <working_directory value="$PROJECT_DIR$/../../.." />
-      <kind value="FILE" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/Topics/Loops/Reversing the number/main.go" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Go Build.go build main.go">
     <configuration name="go build main.go (2)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="exercises" />
       <working_directory value="$PROJECT_DIR$/../../.." />
@@ -163,13 +158,21 @@
       <filePath value="$PROJECT_DIR$/Topics/Methods/Creating a slot machine in Go/main.go" />
       <method v="2" />
     </configuration>
+    <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="exercises" />
+      <working_directory value="$PROJECT_DIR$/../../.." />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/Topics/Math package/Calculating the volume of a Cylinder/main.go" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build main.go" />
         <item itemvalue="Go Build.go build main.go (5)" />
         <item itemvalue="Go Build.go build main.go (4)" />
         <item itemvalue="Go Build.go build main.go (3)" />
         <item itemvalue="Go Build.go build main.go (2)" />
-        <item itemvalue="Go Build.go build main.go (1)" />
       </list>
     </recent_temporary>
   </component>
