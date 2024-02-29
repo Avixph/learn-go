@@ -1,0 +1,26 @@
+type: code
+files:
+  - name: main.go
+    visible: true
+    text: "package main\n\nimport (\n\t\"bufio\"\n\t\"fmt\"\n\t\"os\"\n)\n\ntype Text\
+    \ string\n\n// Create the `TabFormat()` method below:\nfunc (t Text) TabFormat()\
+    \ string {\n\treturn \"\\t\" + string(t)\n}\n\n// Create the `DoubleQuoteFormat()`\
+    \ method below:\nfunc (t Text) DoubleQuoteFormat() string {\n\treturn ? + string(t)\
+    \ + ?\n}\n\n// Create the `SingleQuoteFormat()` method below:\nfunc (t Text) SingleQuoteFormat()\
+    \ string {\n\treturn ? + ? + ?\n}\n\n// Create the `Formatter` interface that\
+    \ implements the\n// `TabFormat()`, `DoubleQuoteFormat()` and `SingleQuoteFormat()`\
+    \ methods below:\ntype ? interface {\n\t?\n    ?\n    ?\n}\n\n// DO NOT delete\
+    \ or modify the contents of the main() function!\nfunc main() {\n\tscanner :=\
+    \ bufio.NewScanner(os.Stdin)\n\tscanner.Scan()\n\tsomeText := Text(scanner.Text())\n\
+    \n\ttextFormatter := someText\n\n\tformattedText := textFormatter.SingleQuoteFormat()\n\
+    \tfmt.Println(formattedText)\n\n\tformattedText = textFormatter.DoubleQuoteFormat()\n\
+    \tfmt.Println(formattedText)\n\n\tformattedText = textFormatter.TabFormat()\n\t\
+    fmt.Println(formattedText)\n}"
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/24777#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Thu, 29 Feb 2024 17:28:45 UTC"
+record: -1
+submission_language: go

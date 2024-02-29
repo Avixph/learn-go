@@ -23,3 +23,7 @@ courses/.idea/path-to-go-developing/exercises/.idea/
 # Go workspace file
 go.work
 
+
+/node_modules
+.DS_Store
+.env
