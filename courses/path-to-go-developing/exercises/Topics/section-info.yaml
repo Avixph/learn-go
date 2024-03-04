@@ -28,3 +28,4 @@ content:
   - Working with time
   - Generating random numbers and strings
   - Variadic functions
+  - Anonymous functions and Closures
