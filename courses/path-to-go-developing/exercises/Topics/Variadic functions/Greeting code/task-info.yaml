@@ -21,6 +21,9 @@ files:
       }
     learner_created: false
 feedback_link: https://hyperskill.org/learn/step/21807#comment
-status: Unchecked
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Mon, 04 Mar 2024 19:05:28 UTC"
 record: -1
 submission_language: go
