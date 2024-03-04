@@ -29,3 +29,4 @@ content:
   - Generating random numbers and strings
   - Variadic functions
   - Anonymous functions and Closures
+  - Defer statement
