@@ -1,0 +1,18 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: It is a function where you can use numbers and strings together
+  - text: It is a function with an indefinite count of parameters
+  - text: It is a function where the last parameter has an indefinite count of arguments
+  - text: It is a function with only one parameter
+files:
+  - name: main.go
+    visible: true
+    text: |+
+      // You can experiment here, it won’t be checked
+    
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/21799#comment
+status: Solved
+record: -1
+local_check: false
