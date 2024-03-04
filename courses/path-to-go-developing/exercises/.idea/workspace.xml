@@ -92,6 +92,7 @@
     <setting file="file://$PROJECT_DIR$/Topics/Math package/Theory/main.go" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Topics/Methods/Bank account operations/main.go" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Topics/Methods/Creating a slot machine in Go/main.go" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/Methods/Creating your first method/main.go" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Topics/Methods/Fixing method declaration/answer.txt" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Topics/Methods/Methods with the same name/main.go" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Topics/Methods/Reasons to use pointer receivers/main.go" root0="FORCE_HIGHLIGHTING" />
@@ -106,6 +107,7 @@
     <setting file="file://$PROJECT_DIR$/Topics/Operations with maps/Operations with maps/main.go" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Topics/Operations with maps/Theory/main.go" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Topics/Operations with strings/A Song of Ice and Fire/main.go" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/Operations with strings/Emphasize your words/main.go" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Topics/Operations with strings/Final Battle/main.go" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Topics/Operations with strings/Greedy editor/main.go" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Topics/Operations with strings/Theory/main.go" root0="FORCE_HIGHLIGHTING" />
@@ -146,6 +148,7 @@
     <setting file="file://$PROJECT_DIR$/Topics/Slices/Declaration/main.go" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Topics/Slices/Displaying slice info/main.go" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Topics/Slices/Length and capacity/main.go" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/Slices/Sum and product of vectors/main.go" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Topics/Slices/The last slice element/main.go" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Topics/Slices/Theory/main.go" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Topics/Slices/Understanding the code/main.go" root0="FORCE_HIGHLIGHTING" />
