@@ -4,3 +4,5 @@ content:
   - How to take data from the standard input
   - Reading different types of tokens
   - Discarding a part of text
+  - Counting the number of word tokens
+  - Correct order

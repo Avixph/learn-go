@@ -10,19 +10,18 @@ import (
 const discardedBytes = 10
 
 func main() {
-	reader := bufio.NewReader(os.Stdin)
+	rdr := bufio.NewReader(os.Stdin)
 
-    _, err := ?.?(discardedBytes)
+	_, err := rdr.Discard(discardedBytes)
 
-    // DO NOT delete or modify the code below:
-    if err != nil {
+	if err != nil {
 		fmt.Println(err)
 	}
 
-    data, err := reader.ReadString('\n')
+	data, err := rdr.ReadString('\n')
 	if err != nil && err != io.EOF {
 		fmt.Println(err)
 	}
 
-    fmt.Println(data)
+	fmt.Println(data)
 }
