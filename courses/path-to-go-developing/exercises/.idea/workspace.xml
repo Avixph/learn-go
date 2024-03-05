@@ -17,6 +17,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Topics/Advanced Input/Counting the number of word tokens/main.go" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Topics/Advanced Input/Discarding a part of text/main.go" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/Advanced Input/Reader with a certain delimiter/main.go" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Topics/Advanced Input/Working with a custom split function/main.go" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Topics/Anonymous functions and Closures/Factorial/main.go" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Topics/Arrays/Coding a 1D array/main.go" root0="FORCE_HIGHLIGHTING" />
@@ -235,7 +236,7 @@
     "settings.editor.selected.configurable": "Educational"
   }
 }]]></component>
-  <component name="RunManager" selected="Go Build.go build main.go (1)">
+  <component name="RunManager" selected="Go Build.go build main.go (2)">
     <configuration name="go build main.go (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="exercises" />
       <working_directory value="$PROJECT_DIR$/../../.." />
@@ -244,12 +245,12 @@
       <filePath value="$PROJECT_DIR$/Topics/Defer statement/Most basic defer implementation/main.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build main.go (3)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build main.go (2)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="exercises" />
       <working_directory value="$PROJECT_DIR$/../../.." />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/Topics/Slice expressions/Splitting compound words/main.go" />
+      <filePath value="$PROJECT_DIR$/Topics/Advanced Input/Counting the number of word tokens/main.go" />
       <method v="2" />
     </configuration>
     <configuration name="go build main.go (4)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -278,11 +279,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build main.go (2)" />
         <item itemvalue="Go Build.go build main.go (1)" />
         <item itemvalue="Go Build.go build main.go" />
         <item itemvalue="Go Build.go build main.go (5)" />
         <item itemvalue="Go Build.go build main.go (4)" />
-        <item itemvalue="Go Build.go build main.go (3)" />
       </list>
     </recent_temporary>
   </component>

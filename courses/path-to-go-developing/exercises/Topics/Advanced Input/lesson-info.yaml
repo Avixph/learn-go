@@ -6,3 +6,4 @@ content:
   - Discarding a part of text
   - Counting the number of word tokens
   - Correct order
+  - Reader with a certain delimiter
