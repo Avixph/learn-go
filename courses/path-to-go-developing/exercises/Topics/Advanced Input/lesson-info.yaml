@@ -1,3 +1,6 @@
 content:
   - Theory
   - Working with a custom split function
+  - How to take data from the standard input
+  - Reading different types of tokens
+  - Discarding a part of text
