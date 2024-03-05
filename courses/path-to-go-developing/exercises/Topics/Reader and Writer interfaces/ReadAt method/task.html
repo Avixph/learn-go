@@ -1,0 +1,8 @@
+<h2>ReadAt method</h2>
+<div class="step-text">
+<p></p>
+<p>In this task, you will try another useful method: <code class="language-go">ReadAt()</code> from <code class="language-go">io</code> package. <code class="language-go">ReadAt()</code> implements the <code class="language-go">io.ReaderAt</code> interface.</p>
+<p>Take a look at the <code class="language-go">ReadAt()</code> method definition below, where off represents the offset (which you may recall from the <code class="language-go">Seek()</code> method):</p>
+<pre><code class="language-go">func (r *Reader) ReadAt(b []byte, off int64) (n int, err error)</code></pre>
+<p>Please, write the missing code so that the program will output the string: <code class="language-go">"money"</code>.</p><br><br><font color="gray">Memory limit: 256 MB</font><br><font color="gray">Time limit: 8 seconds</font><br><br>
+</div>
