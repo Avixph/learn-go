@@ -31,3 +31,4 @@ content:
   - Anonymous functions and Closures
   - Defer statement
   - Advanced Input
+  - Reader and Writer interfaces

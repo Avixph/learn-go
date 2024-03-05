@@ -1,0 +1,24 @@
+type: code
+files:
+  - name: main.go
+    visible: true
+    text: "package main\n\nimport (\n\t\"fmt\"\n\t\"io\"\n\t\"strings\"\n)\n\nconst\
+    \ textSource = \"Supercalifragilisticexpialidocious\"\n\n// nolint: gomnd // DO\
+    \ NOT delete this comment!\nfunc main() {\n\tfmt.Println(\"full text:\", textSource)\n\
+    \n\treader := strings.NewReader(textSource)\n\n\tp := make([]byte, 7)\n\t// Move\
+    \ the position of the `reader` to the last 7 bytes below:\n\t_, err := reader.Seek(??,\
+    \ ??)\n\tif err != nil {\n\t\treturn\n\t}\n\n\tif _, err := reader.Read(p); err\
+    \ != nil {\n\t\tfmt.Println(err)\n\t}\n\tfmt.Print(\"selected: \", string(p),\
+    \ \" \")\n}"
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/23868#comment
+status: Solved
+feedback:
+  message: |-
+    <html>full text: Supercalifragilisticexpialidocious
+    selected: docious
+
+    </html>
+  time: "Tue, 05 Mar 2024 22:18:27 UTC"
+record: -1
+submission_language: go

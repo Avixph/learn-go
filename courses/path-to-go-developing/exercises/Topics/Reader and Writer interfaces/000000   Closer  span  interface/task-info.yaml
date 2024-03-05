@@ -1,0 +1,19 @@
+type: choice
+is_multiple_choice: true
+options:
+  - text: When it's no longer needed
+  - text: When there is no data left to read or write
+  - text: Only when the program exits
+  - text: Immediately after read or write operations
+files:
+  - name: main.go
+    visible: true
+    text: |+
+      // You can experiment here, it won’t be checked
+    
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/23866#comment
+status: Solved
+record: -1
+custom_name: 000000;">Closer</span> interface
+local_check: false

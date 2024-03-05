@@ -142,6 +142,8 @@
     <setting file="file://$PROJECT_DIR$/Topics/Public and private scopes/Public or private/main.go" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Topics/Public and private scopes/The limited scope of local variables/main.go" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Topics/Public and private scopes/Theory/main.go" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/Reader and Writer interfaces/Implement the Close() method/main.go" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/Reader and Writer interfaces/Selective reading/main.go" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Topics/Slice expressions/Getting a substring/main.go" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Topics/Slice expressions/Removing all letters except for the last one/main.go" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Topics/Slice expressions/Simple vs Full/main.go" root0="FORCE_HIGHLIGHTING" />
