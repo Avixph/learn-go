@@ -1,0 +1,61 @@
+type: remote_edu
+custom_name: Keanu is writing his most famous quotes!
+files:
+  - name: main.go
+    visible: true
+    text: "package main\n\nimport (\n\t\"fmt\"\n\t\"log\"\n\t\"os\"\n)\n\nfunc main()\
+    \ {\n\t// DO NOT DELETE! This opens the 'keanu_quotes.txt' file in read-write\
+    \ mode\n\tfile, err := os.OpenFile(\"keanu_quotes.txt\", os.O_RDWR|os.O_CREATE,\
+    \ 0644)\n\tif err != nil {\n\t\tlog.Fatal(err)\n\t}\n\tdefer file.Close()\n\n\t\
+    quotes := []string{\"You're breathtaking!\",\n\t\t\"Wake up Samurai! We have a\
+    \ city to burn.\",\n\t\t\"Lose? I don't lose; I win! I'm a lawyer, that's my job,\
+    \ that's what I do!\",\n\t}\n\n\tfor _, line := range ? { // iterate over each\
+    \ line of the 'quotes' slice here\n\t\t_, err := fmt.Fprintln(?, ?) // // write\
+    \ each line of the 'quotes' slice of strings to 'file' here\n\t\tif err != nil\
+    \ {\n\t\t\tlog.Fatal(err) // exit if we have an unexpected error\n\t\t}\n\t}\n\
+    }\n"
+    learner_created: false
+  - name: tests.py
+    visible: false
+    text: |
+      import os
+      
+      from hstest import StageTest, CheckResult, WrongAnswer, TestCase
+      
+      inputs = [
+          "You're breathtaking!\nWake up Samurai! We have a city to burn.\nLose? I don't lose; I win! I'm a lawyer, "
+          "that's my job, that's what I do!"
+      ]
+      
+      FILENAME = "keanu_quotes.txt"
+      
+      
+      class TestAdmissionProcedure(StageTest):
+          def generate(self):
+              return [TestCase(stdin=[test], attach=[test]) for test in inputs]
+      
+          def check(self, reply: str, attach: list):
+              if not os.path.exists(FILENAME):
+                  raise WrongAnswer(f"Cannot find file {FILENAME}")
+      
+              with open(FILENAME, "r") as f:
+                  content = f.read().strip()
+                  if content != attach[0]:
+                      raise WrongAnswer(
+                          f'Invalid content of {FILENAME} file, got:\n{content}\n\nExpected:\n{attach[0]}'
+                      )
+      
+              print(f"Well done! Keanu says thanks!\n\n{attach[0]}")
+              return CheckResult.correct()
+      
+      
+      if __name__ == '__main__':
+          TestAdmissionProcedure().run_tests()
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/18609#comment
+check_profile: hyperskill_go
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Wed, 06 Mar 2024 22:13:25 UTC"
+record: -1

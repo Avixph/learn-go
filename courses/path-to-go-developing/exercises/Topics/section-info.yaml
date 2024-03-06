@@ -33,3 +33,4 @@ content:
   - Advanced Input
   - Reader and Writer interfaces
   - Reading files
+  - Writing data to files
