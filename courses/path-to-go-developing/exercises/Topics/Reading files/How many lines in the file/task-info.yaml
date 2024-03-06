@@ -1,0 +1,73 @@
+type: remote_edu
+custom_name: How many lines in the file?
+files:
+  - name: main.go
+    visible: true
+    text: "package main\n\nimport (\n\t\"bufio\"\n\t\"fmt\"\n\t\"log\"\n\t\"os\"\n)\n\
+    \nfunc main() {\n\tfile, err := ? // open 'sample.txt' here with the os.Open function\n\
+    \tif err != nil {\n\t\tlog.Fatal(err)\n\t}\n\tdefer file.Close()\n\n\tvar lineCount\
+    \ int // lineCount will be used to count the number of lines in the file\n\n\t\
+    scanner := bufio.NewScanner(?) // create a new scanner for the file\n\n\t// Use\
+    \ the for scanner.Scan() loop to read the file line by line\n\t// and increment\
+    \ the lineCount variable each loop\n\tfor ? {\n\t\t?\n\t}\n\n\tfmt.Println(lineCount)\
+    \ // print the total lineCount here!\n}"
+    learner_created: false
+  - name: sample.txt
+    visible: false
+    text: |-
+      among
+      us
+      
+      fall guys
+      
+      t
+       e
+        r
+         r
+          a
+           r
+            i
+             a
+      
+      m
+      i
+      n
+      e
+      c
+      r
+      a
+      f
+      t
+      
+      f o r t n i t e
+    learner_created: false
+  - name: tests.py
+    visible: false
+    text: |-
+      from hstest import StageTest, CheckResult, WrongAnswer, TestCase
+      
+      line_count = ["25"]
+      
+      
+      class Test(StageTest):
+          def generate(self):
+              return [TestCase(stdin=[test], attach=test) for test in line_count]
+      
+          def check(self, reply, clue):
+              if reply.strip() != clue.strip():
+                  return CheckResult.wrong("Wrong amount of lines counted!\n"
+                                           "Your program counted {} lines, please check your code!".format(reply.strip()))
+      
+              return CheckResult.correct()
+      
+      
+      if __name__ == '__main__':
+          Test('file.file').run_tests()
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/23477#comment
+check_profile: hyperskill_go
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Wed, 06 Mar 2024 21:25:41 UTC"
+record: -1

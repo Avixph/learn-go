@@ -1,0 +1,19 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: Read the entire content of the file at once using <code>os.ReadFile</code>
+  - text: Read the file in chunks using a buffer with a constant <code>chunkSize</code>
+  - text: Read the file word by word using the <code>Split</code> function with <code>bufio.ScanWords</code>
+      as an argument
+  - text: Read the file line by line without using any split function
+files:
+  - name: main.go
+    visible: true
+    text: |+
+      // You can experiment here, it won’t be checked
+    
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/23473#comment
+status: Solved
+record: -1
+local_check: false
