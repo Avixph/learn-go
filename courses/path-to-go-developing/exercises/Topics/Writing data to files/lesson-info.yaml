@@ -4,3 +4,4 @@ content:
   - The os.WriteFile() function
   - SpongeBob is ready to write data to a file
   - Keanu is writing his most famous quotes
+  - Appending songs to a CSV file
