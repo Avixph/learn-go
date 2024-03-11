@@ -26,6 +26,7 @@
     <setting file="file://$PROJECT_DIR$/Topics/Anonymous functions and Closures/Factorial/main.go" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Topics/Anonymous functions and Closures/Theory/main.go" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Topics/Arrays/Coding a 1D array/main.go" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/Arrays/Coding a 3D array/main.go" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Topics/Arrays/Theory/main.go" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Topics/Comments/Add the missing comments/main.go" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Topics/Comments/Comment syntax in Go/main.go" root0="FORCE_HIGHLIGHTING" />
@@ -276,7 +277,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;Educational&quot;
   }
 }</component>
-  <component name="RunManager" selected="Go Build.go build main.go (2)">
+  <component name="RunManager" selected="Go Build.go build main.go (3)">
     <configuration name="go build main.go (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="exercises" />
       <working_directory value="$PROJECT_DIR$/../../.." />
@@ -293,12 +294,12 @@
       <filePath value="$PROJECT_DIR$/Topics/Advanced Input/Counting the number of word tokens/main.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build main.go (4)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build main.go (3)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="exercises" />
       <working_directory value="$PROJECT_DIR$/../../.." />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/Topics/Slice expressions/Subslices and chemical elements/main.go" />
+      <filePath value="$PROJECT_DIR$/Topics/Arrays/Coding a 3D array/main.go" />
       <method v="2" />
     </configuration>
     <configuration name="go build main.go (5)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -319,11 +320,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build main.go (3)" />
         <item itemvalue="Go Build.go build main.go (2)" />
         <item itemvalue="Go Build.go build main.go (1)" />
         <item itemvalue="Go Build.go build main.go" />
         <item itemvalue="Go Build.go build main.go (5)" />
-        <item itemvalue="Go Build.go build main.go (4)" />
       </list>
     </recent_temporary>
   </component>
