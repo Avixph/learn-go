@@ -5,3 +5,4 @@ content:
   - Built-in functions for slices
   - Using the append function
   - Element assignment
+  - Iterating over a 2D slice
