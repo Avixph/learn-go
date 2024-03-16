@@ -25,13 +25,7 @@
     <setting file="file://$PROJECT_DIR$/Topics/Advanced Input/Working with a custom split function/main.go" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Topics/Anonymous functions and Closures/Factorial/main.go" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Topics/Anonymous functions and Closures/Theory/main.go" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Topics/Arrays/Array statements/main.go" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Topics/Arrays/Code review/main.go" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Topics/Arrays/Coding a 1D array/main.go" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Topics/Arrays/Coding a 3D array/main.go" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Topics/Arrays/Different types and sizes/main.go" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Topics/Arrays/Indexing a two-dimensional array/answer.txt" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Topics/Arrays/The last array element/main.go" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Topics/Arrays/Theory/main.go" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Topics/Comments/Add the missing comments/main.go" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Topics/Comments/Comment syntax in Go/main.go" root0="FORCE_HIGHLIGHTING" />
@@ -90,7 +84,6 @@
     <setting file="file://$PROJECT_DIR$/Topics/Interfaces/Text formatter interface/main.go" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Topics/Interfaces/Theory/main.go" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Topics/Interfaces/What are empty interfaces/main.go" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Topics/Loops/Degree of two/main.go" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Topics/Loops/Finding the factorial/main.go" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Topics/Loops/Key points of loops in Go/main.go" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Topics/Loops/Loop declarations/main.go" root0="FORCE_HIGHLIGHTING" />
@@ -139,6 +132,8 @@
     <setting file="file://$PROJECT_DIR$/Topics/Packages/Fix the broken code/main.go" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Topics/Packages/The package go-getter/answer.txt" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Topics/Packages/Theory/main.go" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/Panic and recover/Choose a recover method/main.go" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Topics/Panic and recover/Legacy code/main.go" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Topics/Pointers/Pointer and non-pointer variables/main.go" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Topics/Pointers/Pointer declaration/main.go" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Topics/Pointers/Pointer value I/main.go" root0="FORCE_HIGHLIGHTING" />
@@ -228,7 +223,6 @@
     <setting file="file://$PROJECT_DIR$/Topics/Variadic functions/Variadic parameter/main.go" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Topics/Working with slices/Built-in functions for slices/main.go" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Topics/Working with slices/Element assignment/main.go" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Topics/Working with slices/Iterating over a 2D slice/main.go" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Topics/Working with slices/Printing a slice/main.go" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Topics/Working with slices/Theory/main.go" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Topics/Working with slices/Using the append function/main.go" root0="FORCE_HIGHLIGHTING" />
@@ -283,7 +277,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;Educational&quot;
   }
 }</component>
-  <component name="RunManager" selected="Go Build.go build main.go (3)">
+  <component name="RunManager" selected="Go Build.go build main.go (2)">
     <configuration name="go build main.go (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="exercises" />
       <working_directory value="$PROJECT_DIR$/../../.." />
@@ -300,12 +294,12 @@
       <filePath value="$PROJECT_DIR$/Topics/Advanced Input/Counting the number of word tokens/main.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build main.go (3)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build main.go (4)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="exercises" />
       <working_directory value="$PROJECT_DIR$/../../.." />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/Topics/Arrays/Coding a 3D array/main.go" />
+      <filePath value="$PROJECT_DIR$/Topics/Slice expressions/Subslices and chemical elements/main.go" />
       <method v="2" />
     </configuration>
     <configuration name="go build main.go (5)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -326,11 +320,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build main.go (3)" />
         <item itemvalue="Go Build.go build main.go (2)" />
         <item itemvalue="Go Build.go build main.go (1)" />
         <item itemvalue="Go Build.go build main.go" />
         <item itemvalue="Go Build.go build main.go (5)" />
+        <item itemvalue="Go Build.go build main.go (4)" />
       </list>
     </recent_temporary>
   </component>
