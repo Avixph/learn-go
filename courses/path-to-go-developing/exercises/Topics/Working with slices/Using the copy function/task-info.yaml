@@ -2,9 +2,9 @@ type: choice
 is_multiple_choice: false
 options:
   - text: "s1 = copy(s1, s2)"
-  - text: "s2 = copy(s2, s1)"
-  - text: "copy(s1, s2)"
   - text: "copy(s2, s1)"
+  - text: "copy(s1, s2)"
+  - text: "s2 = copy(s2, s1)"
 files:
   - name: main.go
     visible: true
