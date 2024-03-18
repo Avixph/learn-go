@@ -1,20 +1,28 @@
 package main
 
 import (
-    "fmt"
-    "strings"
+	"fmt"
+	"strings"
 )
 
-func main() {
-	var builder strings.Builder
-
-	var c byte  // what type allows us to read Unicode characters?
-	fmt.Scanln(&c)
-
-	for i := 0; i < 3; i++ {
-		builder.WriteByte(c) // what function allows us to write Unicode characters?
+func scanRune() rune {
+	var c rune
+	_, err := fmt.Scanln(&c)
+	if err != nil {
+		return 0
 	}
+	return c
+}
 
-    // This line outputs the Unicode character do not delete it!
-	fmt.Println(builder.String())
+func convertToUnicode(b strings.Builder, c rune) string {
+	for i := 0; i < 3; i++ {
+		b.WriteRune(c)
+	}
+	return b.String()
+}
+
+func main() {
+	var b strings.Builder
+	c := scanRune()
+	fmt.Println(convertToUnicode(b, c))
 }

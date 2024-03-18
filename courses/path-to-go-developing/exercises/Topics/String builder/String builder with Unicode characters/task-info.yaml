@@ -10,6 +10,16 @@ files:
     }"
     learner_created: false
 feedback_link: https://hyperskill.org/learn/step/18082#comment
-status: Unchecked
+status: Solved
+feedback:
+  message: |-
+    <html>Well done, Lena says thanks! 👩‍💻
+
+    ඞඞඞ
+    😳😳😳
+    🤔🤔🤔
+
+    </html>
+  time: "Mon, 18 Mar 2024 21:17:31 UTC"
 record: -1
 submission_language: go
