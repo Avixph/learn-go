@@ -1,19 +1,18 @@
 package main
 
 import (
-    "fmt"
-    "strings" 
-) 
+	"fmt"
+	"strings"
+)
 
-// Modify the concat function template below to properly implement the concatBytes function
-func concat?(bytes ...byte) string {
-    var builder strings.Builder
-    for _, x := range bytes {
-        builder.Write?(x)
-    }
-    return builder.String()
+func concatBytes(bytes ...byte) string {
+	var b strings.Builder
+	for _, x := range bytes {
+		b.WriteByte(x)
+	}
+	return b.String()
 }
 
 func main() {
-    fmt.Println(concatBytes('J', 'B', 'A', 'c', 'a', 'd', 'e', 'm', 'y'))
+	fmt.Println(concatBytes('J', 'B', 'A', 'c', 'a', 'd', 'e', 'm', 'y'))
 }

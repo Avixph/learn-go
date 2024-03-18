@@ -10,6 +10,9 @@ files:
     \ 'e', 'm', 'y'))\n}"
     learner_created: false
 feedback_link: https://hyperskill.org/learn/step/18084#comment
-status: Unchecked
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Mon, 18 Mar 2024 21:02:19 UTC"
 record: -1
 submission_language: go
