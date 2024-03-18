@@ -2,3 +2,4 @@ content:
   - Theory
   - Creating a custom function — concatBytes
   - The String() method
+  - String builder with Unicode characters

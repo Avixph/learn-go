@@ -11,6 +11,12 @@ files:
     \ print the concatenated string?\n\tfmt.Println(?)\n}"
     learner_created: false
 feedback_link: https://hyperskill.org/learn/step/18081#comment
-status: Unchecked
+status: Solved
+feedback:
+  message: "<html>Well done! Patrick ⭐ says thanks! \n\nOutput of Test #1:\nIs mayonnaise\
+    \ an instrument? 🎺 I can't see my forehead! 😳\n\nOutput of Test #2:\nThe inner\
+    \ machinations of my mind 🧠 are an enigma. I can't hear you, it's too dark in\
+    \ here!\n\n</html>"
+  time: "Mon, 18 Mar 2024 21:08:22 UTC"
 record: -1
 submission_language: go
