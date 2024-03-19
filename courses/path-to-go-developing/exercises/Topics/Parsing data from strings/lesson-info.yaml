@@ -2,3 +2,5 @@ content:
   - Theory
   - How to parse integer numbers from strings
   - Converting the total amount of decimals
+  - Server response time conversion
+  - Converting boolean values to strings

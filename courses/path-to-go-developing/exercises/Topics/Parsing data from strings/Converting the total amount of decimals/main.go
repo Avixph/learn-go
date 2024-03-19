@@ -1,21 +1,29 @@
 package main
 
 import (
-    "fmt"
-    "strconv"
+	"fmt"
+	"strconv"
 )
 
 const FloatPrecision = 64
 
+func scanInput() float64 {
+	var inp float64
+	_, err := fmt.Scanln(&inp)
+	if err != nil {
+		return 0
+	}
+	return inp
+}
+
+func floatToString(flt float64) string {
+	return strconv.FormatFloat(flt, 'f', -1, FloatPrecision)
+}
+
 func main() {
-    // Do not change or delete these two lines below!
-    var mathConstant float64
-	fmt.Scanln(&mathConstant)
-
-    // Write in the '?' the missing arguments required to properly convert
-    // all the decimals of the 'mathConstant' variable to a string!
-    val := strconv.FormatFloat(?, '?', ?, FloatPrecision)
-
-    // This line prints the converted value, do not delete it!
+	//var mathConstant float64
+	//fmt.Scanln(&mathConstant)
+	mathConstant := scanInput()
+	val := floatToString(mathConstant)
 	fmt.Printf("%s", val)
 }

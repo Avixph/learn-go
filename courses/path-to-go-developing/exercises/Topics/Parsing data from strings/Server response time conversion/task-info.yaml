@@ -1,0 +1,20 @@
+type: code
+files:
+  - name: main.go
+    visible: true
+    text: "package main\n\nimport (\n\t\"fmt\"\n    \"log\"\n\t\"strconv\"\n)\n\nfunc\
+    \ main() {\n    // DO NOT delete or modify the code block below!\n\tvar logEntry\
+    \ string\n\tfmt.Scanln(&logEntry)\n\tlogEntry = logEntry[:len(logEntry)-2]\n\n\
+    \    // Write the additional code to convert the `responseTime` to float64:\n\t\
+    responseTime, err := ?\n\tif err != nil {\n        log.Fatal(err)\n\t}\n\n   \
+    \ // Convert the response time to seconds below:\n    responseTime = ?\n\n\t//\
+    \ Print the converted response time in seconds with two decimal points.\n\tfmt.Printf(\"\
+    Response time: ? seconds\", ?)\n}"
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/32209#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Tue, 19 Mar 2024 19:38:13 UTC"
+record: -1
+submission_language: go

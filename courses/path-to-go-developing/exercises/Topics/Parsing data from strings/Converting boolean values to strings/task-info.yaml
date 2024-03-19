@@ -1,0 +1,18 @@
+type: code
+files:
+  - name: main.go
+    visible: true
+    text: "package main\n\nimport (\n    \"fmt\"\n    \"strconv\"\n)\n\nfunc main()\
+    \ {\n    // Do not change or delete these two lines below!\n    var myBool bool\n\
+    \    fmt.Scanln(&myBool)\n\n    // What is the correct function to convert bool\
+    \ types to strings?\n    val := strconv.ParseBool(myBool)\n\n    // This line\
+    \ prints the converted type and its value, do not delete it!\n\tfmt.Printf(\"\
+    %T %s\", val, val)\n}"
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/17939#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Tue, 19 Mar 2024 19:42:21 UTC"
+record: -1
+submission_language: go
