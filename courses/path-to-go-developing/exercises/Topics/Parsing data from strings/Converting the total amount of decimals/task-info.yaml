@@ -1,0 +1,16 @@
+type: code
+files:
+  - name: main.go
+    visible: true
+    text: "package main\n\nimport (\n    \"fmt\"\n    \"strconv\"\n)\n\nconst FloatPrecision\
+    \ = 64\n\nfunc main() {\n    // Do not change or delete these two lines below!\n\
+    \    var mathConstant float64\n\tfmt.Scanln(&mathConstant)\n\n    // Write in\
+    \ the '?' the missing arguments required to properly convert\n    // all the decimals\
+    \ of the 'mathConstant' variable to a string!\n    val := strconv.FormatFloat(?,\
+    \ '?', ?, FloatPrecision)\n\n    // This line prints the converted value, do not\
+    \ delete it!\n\tfmt.Printf(\"%s\", val)\n}"
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/17940#comment
+status: Unchecked
+record: -1
+submission_language: go

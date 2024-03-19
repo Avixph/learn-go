@@ -36,3 +36,4 @@ content:
   - Writing data to files
   - Panic and recover
   - String builder
+  - Parsing data from strings
